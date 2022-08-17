@@ -1,0 +1,13 @@
+{
+    "name": "laureatus/hello-composer",
+    "description": "Testing composer package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laureatus\\HelloComposer\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
